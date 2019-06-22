@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="1.60.6" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.6.0-preview6.19303.8" />
+    <PackageReference Include="MySqlConnector" Version="0.56.0" />
+    <PackageReference Include="SpotifyAPI.Web" Version="4.1.1" />
+    <PackageReference Include="SpotifyAPI.Web.Auth" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BeBlue.Desafio.Entities\BeBlue.Desafio.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

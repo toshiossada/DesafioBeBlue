@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+      beBlue_database:
+        image: "mysql:5.7"
+        volumes:
+          - .\data:/var/lib/mysql
+          - .\_MySQL_Init_Script:/docker-entrypoint-initdb.d
+        environment:
+          - MYSQL_ROOT_PASSWORD=123456
+          - bind-address=0.0.0.0
+        ports:
+          - 3306:3306
