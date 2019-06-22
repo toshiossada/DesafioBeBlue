@@ -11,7 +11,7 @@ O projeto é desenvolvido e mantido nas seguintes tecnologias:
 ## Arquitetura e organização do projeto
 
 O projeto está organizado na seguinte arvore de pastas:
-* friendsbee
+* BeBlue
   * /BeBlue.Desafio.Api
   * /BeBlue.Desafio.Entities
   * /BeBlue.Desafio.lib
@@ -44,7 +44,7 @@ saleItems			    | Tabela com as tracks de cada venda.
 ### Criando a base local para desenvolvimento
 Para criar uma base local e utilizar para desenvolvimento, temos um arquivo chamado **init.sql** em **docker/_MySQL_Init_Script**.
 Utiizar o comando **docker-compose -f docker\docker-compose.yml -p dev up -d** para iniciar a intancia do MySQL, o usuario do mySQL é **root** e a senha é **123456**, o container estara rodando na porta **3306**(Porta Padrão), conforme o arquivo **docker\docker-compose.yml**.
-Ele irá criar um container MySQL contendo o database **friendsbee**
+Ele irá criar um container MySQL contendo o database **BeBlue**
 Para executar o MySQL basta executar o seguinte comando **mysql --protocol=tcp -u root -p** e após isso digitar a senha **123456**
 Basta executar o arquivo chamado **init.sql** em **docker/_MySQL_Init_Script** e automaticamente irá criar a base localmente.
 Para destruir o container basta executar o comando **docker-compose -f documents\database\docker\docker-compose.yml -p dev down -v**
