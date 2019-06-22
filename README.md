@@ -31,7 +31,7 @@ Utilizamos banco de dados MySQL.
 
 Até o momento, temos as seguintes tabelas
 
-First Header | Second Header
+Nome da Tabela | Descrição
 ------------ | -------------
 genres 		            | Tabela de opções de genero  musicais.
 dayOfWeek		 		| Tabela de o cadastro de dia da semana.
